@@ -1,13 +1,15 @@
 from read_csv import *
 from store_mongo import *
 
+# Search teacher vs [interested field, research papers(google scholar link)] Anything else? 
 
-# 1) Read csv files
-# 2) Webscrape other websites for teacher homepages
+# 1) Read csv files [university homepage link, teachers homepage link]
 # 3) Store all links and teacher names in a database
-# 4) Webscrape links to find teacher a) availability b) accepting interns/ grad students c) check the courses of each teachers
-# 5) Add to database
-
+# 4) Website functionality:
+#    Input  -> University Name
+#    *Output1 -> average test score at the university (seems unlikely)
+#    Output2 -> List of teachers names [more info : specific fields] , internships/ Reasearch Assistant openings
+# 5) Website UI
 
 def main():
    main_csv()
